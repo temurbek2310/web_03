@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.header {
+  background: #F9F9F9;
+}
+
+.header_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 57px 108px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header_logo a {
+  margin-right: 820px;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+.header_menu .menu_title {
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.86px;
+  text-align: left;
+  color: black;
+}
+.header_menu div .lang {
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.86px;
+  text-align: left;
+}
+.header_menu div hr {
+  width: 27px;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+.header_menu button {
+  border: none;
+  background-color: transparent;
+}
+.header_menu button img {
+  width: 40px;
+  height: 40px;
+}
+
+.main {
+  background-color: #F9F9F9;
+}
+
+.hero_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 124px 108px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.hero_left p {
+  width: 867px;
+  height: 72px;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 71.58px;
+  text-align: left;
+  color: black;
+  z-index: 2;
+  position: absolute;
+}
+.hero_left h1 {
+  width: 712px;
+  height: 111px;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 111.4px;
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 110px;
+}
+.hero_left .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 124px;
+  margin-top: 338px;
+}
+.hero_left .wrapper h4 {
+  width: 101px;
+  height: 23px;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 22.88px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-bottom: 13px;
+  margin-left: 209px;
+}
+.hero_left .wrapper hr {
+  width: 275px;
+  height: 0px;
+  margin-left: 132px;
+  border: 1px solid #EA4335;
+}
+.hero_left .wrapper button {
+  width: 102px;
+  height: 59px;
+  border-radius: 4px;
+  border: none;
+  background: #FF7064;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 22.88px;
+  text-align: left;
+  color: white;
+  text-align: center;
+}
+
+.hero_right img {
+  width: 428px;
+  height: 800px;
+  top: 20px;
+  left: 812px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */

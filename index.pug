@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="../styles/style.css")
+        link(rel="stylesheet" href="../styles/normalize.css")
+        title Web 03
+    body 
+        //- header start
+
+        header.header 
+            div.header_container
+                div.header_logo
+                    a(href="#") 
+                        img.header_img(src="../images/logo_img.png" alt="Logo Img")
+
+                    div.header_menu
+                        h4.menu_title CN
+                        div
+                            h4.lang EN
+                            hr
+                        button 
+                            img(src="../images/menu_icon.png" alt="Menu Icon") 
+
+        //-  header end
+
+        //- main start
+        main.main 
+            section.hero 
+                div.hero_container
+                    div.hero_left
+                        p.hero_text One nightowl is coding really hard 
+                        h1.hero_title  coming soon 
+                        div.wrapper
+                            span 
+                                h4.wrapper_title Get Notified
+                                hr
+                            button Send
+                    div.hero_right
+                        img(src="../images/right_img.png" alt="Hero Right Img")
